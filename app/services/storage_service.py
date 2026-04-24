@@ -17,7 +17,7 @@ class S3StorageService:
         """Upload a file to S3 bucket."""
         if object_name is None:
             object_name = os.path.basename(file_path)
-
+        
         try:
             self.s3_client.upload_file(file_path, self.bucket_name, object_name)
             print(f"File {file_path} uploaded to {self.bucket_name}/{object_name}")

@@ -10,3 +10,4 @@ chromadb
 pypdf
 tiktoken
 unstructured
+langchain-chroma
