@@ -11,5 +11,3 @@ pypdf
 tiktoken
 unstructured
 langchain-chroma
-matplotlib
-numpy
