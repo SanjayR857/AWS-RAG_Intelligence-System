@@ -31,7 +31,7 @@ class LLMService:
 
     def get_response(self, query):
         try:
-            response = self.chain.run(query)
+            response = self.chain.invoke(query)
             return response["answer"]
 
         except Exception as e:
